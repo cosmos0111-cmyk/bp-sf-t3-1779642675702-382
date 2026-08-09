@@ -1,360 +1,358 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>마포 셔츠룸 정보 | 초보 투자자를 위한 상세 가이드</title>
-    <meta name="description" content="마포 셔츠룸의 모든 것! 위치, 운영시간, 가격대, 그리고 주식 투자 고수들이 모이는 이유를 상세히 알려드립니다. 초보 투자자 필독.">
-    <meta name="keywords" content="마포 셔츠룸, 마포 주식투자, 셔츠룸 정보, 마포 셔츠룸 가격, 셔츠룸 후기">
-    <meta name="bpaas-design-system" content="organic-stripe">
-    <meta name="bpaas-design-theme" content="kr-organic-stripe">
-    <link rel="canonical" href="https://sf-t3-1779642675702-382.maphoshirts.xyz/about.html">
-    <meta property="og:title" content="마포 셔츠룸 정보 | 초보 투자자를 위한 상세 가이드">
-    <meta property="og:description" content="마포 셔츠룸의 모든 것! 위치, 운영시간, 가격대, 그리고 주식 투자 고수들이 모이는 이유를 상세히 알려드립니다. 초보 투자자 필독.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://sf-t3-1779642675702-382.maphoshirts.xyz/about.html">
-    <meta property="og:image" content="https://sf-t3-1779642675702-382.vercel.app/og-image.jpg">
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="마포 셔츠룸 정보 | 초보 투자자를 위한 상세 가이드">
-    <meta name="twitter:description" content="마포 셔츠룸의 모든 것! 위치, 운영시간, 가격대, 그리고 주식 투자 고수들이 모이는 이유를 상세히 알려드립니다.">
-    <meta name="twitter:image" content="https://sf-t3-1779642675702-382.vercel.app/og-image.jpg">
-    <style>
-        *, *::before, *::after {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-        html {
-            scroll-behavior: smooth;
-            font-size: 16px;
-        }
-        body {
-            font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
-            background-color: #fafaf8;
-            color: #2c2c2c;
-            line-height: 1.7;
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-        }
-        a {
-            color: #4a7c59;
-            text-decoration: none;
-            transition: color 0.2s ease;
-        }
-        a:hover {
-            color: #3a6448;
-            text-decoration: underline;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-            display: block;
-        }
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 1.5rem;
-        }
-        .sr-only {
-            position: absolute;
-            width: 1px;
-            height: 1px;
-            padding: 0;
-            margin: -1px;
-            overflow: hidden;
-            clip: rect(0, 0, 0, 0);
-            white-space: nowrap;
-            border: 0;
-        }
-        header {
-            background: linear-gradient(135deg, #3a6448 0%, #2c5238 100%);
-            color: #fff;
-            padding: 1rem 0;
-            position: sticky;
-            top: 0;
-            z-index: 100;
-            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
-        }
-        .header-inner {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 1.5rem;
-        }
-        .logo {
-            font-size: 1.4rem;
-            font-weight: 700;
-            letter-spacing: -0.5px;
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-        }
-        .logo span {
-            background: #fff;
-            color: #3a6448;
-            padding: 0.2rem 0.6rem;
-            border-radius: 4px;
-            font-size: 0.8rem;
-            font-weight: 600;
-        }
-        nav ul {
-            list-style: none;
-            display: flex;
-            gap: 2rem;
-        }
-        nav a {
-            color: rgba(255,255,255,0.9);
-            font-weight: 500;
-            font-size: 0.95rem;
-            padding: 0.3rem 0;
-            border-bottom: 2px solid transparent;
-            transition: all 0.2s;
-        }
-        nav a:hover {
-            color: #fff;
-            border-bottom-color: #fff;
-            text-decoration: none;
-        }
-        .hamburger {
-            display: none;
-            flex-direction: column;
-            cursor: pointer;
-            gap: 5px;
-            background: none;
-            border: none;
-            padding: 5px;
-        }
-        .hamburger span {
-            display: block;
-            width: 28px;
-            height: 3px;
-            background: #fff;
-            border-radius: 3px;
-            transition: all 0.3s;
-        }
-        @media (max-width: 768px) {
-            .hamburger {
-                display: flex;
-            }
-            nav ul {
-                display: none;
-                position: absolute;
-                top: 100%;
-                left: 0;
-                right: 0;
-                background: #3a6448;
-                flex-direction: column;
-                padding: 1rem 1.5rem;
-                gap: 1rem;
-                box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-            }
-            nav ul.open {
-                display: flex;
-            }
-            nav a {
-                font-size: 1.1rem;
-                padding: 0.5rem 0;
-            }
-        }
-        main {
-            flex: 1;
-            padding: 3rem 0;
-        }
-        .page-header {
-            text-align: center;
-            margin-bottom: 3rem;
-        }
-        .page-header h1 {
-            font-size: 2.2rem;
-            font-weight: 700;
-            color: #2c5238;
-            margin-bottom: 0.5rem;
-            line-height: 1.3;
-        }
-        .page-header p {
-            font-size: 1.1rem;
-            color: #5a5a5a;
-            max-width: 650px;
-            margin: 0 auto;
-        }
-        .section-title {
-            font-size: 1.6rem;
-            font-weight: 700;
-            color: #2c5238;
-            margin: 2.5rem 0 1.5rem;
-            padding-bottom: 0.5rem;
-            border-bottom: 3px solid #d4e8d0;
-        }
-        .info-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 1.5rem;
-            margin-bottom: 2rem;
-        }
-        .info-card {
-            background: #fff;
-            border-radius: 12px;
-            padding: 1.8rem;
-            box-shadow: 0 4px 16px rgba(0,0,0,0.05);
-            border: 1px solid #e8e8e0;
-            transition: transform 0.2s, box-shadow 0.2s;
-        }
-        .info-card:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 8px 24px rgba(0,0,0,0.08);
-        }
-        .info-card h3 {
-            font-size: 1.2rem;
-            color: #3a6448;
-            margin-bottom: 0.8rem;
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-        }
-        .info-card p {
-            color: #4a4a4a;
-            font-size: 0.95rem;
-        }
-        .info-card .highlight {
-            display: inline-block;
-            background: #eef5ec;
-            color: #2c5238;
-            padding: 0.2rem 0.6rem;
-            border-radius: 6px;
-            font-weight: 600;
-            font-size: 0.9rem;
-        }
-        .detail-section {
-            background: #fff;
-            border-radius: 16px;
-            padding: 2.5rem;
-            box-shadow: 0 4px 16px rgba(0,0,0,0.04);
-            margin-bottom: 2.5rem;
-            border: 1px solid #e8e8e0;
-        }
-        .detail-section h2 {
-            font-size: 1.5rem;
-            color: #2c5238;
-            margin-bottom: 1.2rem;
-        }
-        .detail-section p {
-            color: #4a4a4a;
-            margin-bottom: 1rem;
-            font-size: 0.98rem;
-        }
-        .detail-section ul {
-            list-style: none;
-            padding: 0;
-            margin: 1rem 0;
-        }
-        .detail-section li {
-            padding: 0.6rem 0;
-            padding-left: 1.8rem;
-            position: relative;
-            color: #4a4a4a;
-            font-size: 0.98rem;
-        }
-        .detail-section li::before {
-            content: "✓";
-            position: absolute;
-            left: 0;
-            color: #4a7c59;
-            font-weight: 700;
-        }
-        .cta-box {
-            background: linear-gradient(135deg, #eef5ec 0%, #d4e8d0 100%);
-            border-radius: 12px;
-            padding: 2rem;
-            text-align: center;
-            margin: 2rem 0;
-        }
-        .cta-box h3 {
-            font-size: 1.4rem;
-            color: #2c5238;
-            margin-bottom: 0.8rem;
-        }
-        .cta-box p {
-            color: #4a4a4a;
-            margin-bottom: 1.2rem;
-        }
-        .cta-box a {
-            display: inline-block;
-            background: #3a6448;
-            color: #fff;
-            padding: 0.8rem 2rem;
-            border-radius: 8px;
-            font-weight: 600;
-            transition: background 0.2s;
-        }
-        .cta-box a:hover {
-            background: #2c5238;
-            text-decoration: none;
-        }
-        .faq-item {
-            border-bottom: 1px solid #e8e8e0;
-            padding: 1.2rem 0;
-        }
-        .faq-item:last-child {
-            border-bottom: none;
-        }
-        .faq-item h4 {
-            font-size: 1.05rem;
-            color: #2c5238;
-            margin-bottom: 0.4rem;
-            cursor: pointer;
-        }
-        .faq-item p {
-            color: #5a5a5a;
-            font-size: 0.95rem;
-        }
-        footer {
-            background: #2c2c2c;
-            color: #c0c0c0;
-            text-align: center;
-            padding: 2rem 0;
-            margin-top: 3rem;
-        }
-        footer p {
-            font-size: 0.9rem;
-        }
-        @media (max-width: 768px) {
-            .page-header h1 {
-                font-size: 1.7rem;
-            }
-            .detail-section {
-                padding: 1.5rem;
-            }
-            .info-grid {
-                grid-template-columns: 1fr;
-            }
-        }
-    </style>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>마포 셔츠룸 정보 | 초보 투자자를 위한 상세 가이드</title>
+ <meta name="description" content="마포 셔츠룸의 모든 것! 위치, 운영시간, 가격대, 그리고 주식 투자 고수들이 모이는 이유를 상세히 알려드립니다. 초보 투자자 필독.">
+ <meta name="keywords" content="마포 셔츠룸, 마포 주식투자, 셔츠룸 정보, 마포 셔츠룸 가격, 셔츠룸 후기">
+ <link rel="canonical" href="https://sf-t3-1779642675702-382.maphoshirts.xyz/about.html">
+ <meta property="og:title" content="마포 셔츠룸 정보 | 초보 투자자를 위한 상세 가이드">
+ <meta property="og:description" content="마포 셔츠룸의 모든 것! 위치, 운영시간, 가격대, 그리고 주식 투자 고수들이 모이는 이유를 상세히 알려드립니다. 초보 투자자 필독.">
+ <meta property="og:type" content="website">
+ <meta property="og:url" content="https://sf-t3-1779642675702-382.maphoshirts.xyz/about.html">
+ <meta property="og:image" content="https://sf-t3-1779642675702-382.vercel.app/og-image.jpg">
+ <meta name="twitter:card" content="summary">
+ <meta name="twitter:title" content="마포 셔츠룸 정보 | 초보 투자자를 위한 상세 가이드">
+ <meta name="twitter:description" content="마포 셔츠룸의 모든 것! 위치, 운영시간, 가격대, 그리고 주식 투자 고수들이 모이는 이유를 상세히 알려드립니다.">
+ <meta name="twitter:image" content="https://sf-t3-1779642675702-382.vercel.app/og-image.jpg">
+ <style>
+ *, *::before, *::after {
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+ }
+ html {
+ scroll-behavior: smooth;
+ font-size: 16px;
+ }
+ body {
+ font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
+ background-color: #fafaf8;
+ color: #2c2c2c;
+ line-height: 1.7;
+ min-height: 100vh;
+ display: flex;
+ flex-direction: column;
+ }
+ a {
+ color: #4a7c59;
+ text-decoration: none;
+ transition: color 0.2s ease;
+ }
+ a:hover {
+ color: #3a6448;
+ text-decoration: underline;
+ }
+ img {
+ max-width: 100%;
+ height: auto;
+ display: block;
+ }
+ .container {
+ max-width: 1200px;
+ margin: 0 auto;
+ padding: 0 1.5rem;
+ }
+ .sr-only {
+ position: absolute;
+ width: 1px;
+ height: 1px;
+ padding: 0;
+ margin: -1px;
+ overflow: hidden;
+ clip: rect(0, 0, 0, 0);
+ white-space: nowrap;
+ border: 0;
+ }
+ header {
+ background: linear-gradient(135deg, #3a6448 0%, #2c5238 100%);
+ color: #fff;
+ padding: 1rem 0;
+ position: sticky;
+ top: 0;
+ z-index: 100;
+ box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+ }
+ .header-inner {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ max-width: 1200px;
+ margin: 0 auto;
+ padding: 0 1.5rem;
+ }
+ .logo {
+ font-size: 1.4rem;
+ font-weight: 700;
+ letter-spacing: -0.5px;
+ display: flex;
+ align-items: center;
+ gap: 0.5rem;
+ }
+ .logo span {
+ background: #fff;
+ color: #3a6448;
+ padding: 0.2rem 0.6rem;
+ border-radius: 4px;
+ font-size: 0.8rem;
+ font-weight: 600;
+ }
+ nav ul {
+ list-style: none;
+ display: flex;
+ gap: 2rem;
+ }
+ nav a {
+ color: rgba(255,255,255,0.9);
+ font-weight: 500;
+ font-size: 0.95rem;
+ padding: 0.3rem 0;
+ border-bottom: 2px solid transparent;
+ transition: all 0.2s;
+ }
+ nav a:hover {
+ color: #fff;
+ border-bottom-color: #fff;
+ text-decoration: none;
+ }
+ .hamburger {
+ display: none;
+ flex-direction: column;
+ cursor: pointer;
+ gap: 5px;
+ background: none;
+ border: none;
+ padding: 5px;
+ }
+ .hamburger span {
+ display: block;
+ width: 28px;
+ height: 3px;
+ background: #fff;
+ border-radius: 3px;
+ transition: all 0.3s;
+ }
+ @media (max-width: 768px) {
+ .hamburger {
+ display: flex;
+ }
+ nav ul {
+ display: none;
+ position: absolute;
+ top: 100%;
+ left: 0;
+ right: 0;
+ background: #3a6448;
+ flex-direction: column;
+ padding: 1rem 1.5rem;
+ gap: 1rem;
+ box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+ }
+ nav ul.open {
+ display: flex;
+ }
+ nav a {
+ font-size: 1.1rem;
+ padding: 0.5rem 0;
+ }
+ }
+ main {
+ flex: 1;
+ padding: 3rem 0;
+ }
+ .page-header {
+ text-align: center;
+ margin-bottom: 3rem;
+ }
+ .page-header h1 {
+ font-size: 2.2rem;
+ font-weight: 700;
+ color: #2c5238;
+ margin-bottom: 0.5rem;
+ line-height: 1.3;
+ }
+ .page-header p {
+ font-size: 1.1rem;
+ color: #5a5a5a;
+ max-width: 650px;
+ margin: 0 auto;
+ }
+ .section-title {
+ font-size: 1.6rem;
+ font-weight: 700;
+ color: #2c5238;
+ margin: 2.5rem 0 1.5rem;
+ padding-bottom: 0.5rem;
+ border-bottom: 3px solid #d4e8d0;
+ }
+ .info-grid {
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+ gap: 1.5rem;
+ margin-bottom: 2rem;
+ }
+ .info-card {
+ background: #fff;
+ border-radius: 12px;
+ padding: 1.8rem;
+ box-shadow: 0 4px 16px rgba(0,0,0,0.05);
+ border: 1px solid #e8e8e0;
+ transition: transform 0.2s, box-shadow 0.2s;
+ }
+ .info-card:hover {
+ transform: translateY(-3px);
+ box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+ }
+ .info-card h3 {
+ font-size: 1.2rem;
+ color: #3a6448;
+ margin-bottom: 0.8rem;
+ display: flex;
+ align-items: center;
+ gap: 0.5rem;
+ }
+ .info-card p {
+ color: #4a4a4a;
+ font-size: 0.95rem;
+ }
+ .info-card .highlight {
+ display: inline-block;
+ background: #eef5ec;
+ color: #2c5238;
+ padding: 0.2rem 0.6rem;
+ border-radius: 6px;
+ font-weight: 600;
+ font-size: 0.9rem;
+ }
+ .detail-section {
+ background: #fff;
+ border-radius: 16px;
+ padding: 2.5rem;
+ box-shadow: 0 4px 16px rgba(0,0,0,0.04);
+ margin-bottom: 2.5rem;
+ border: 1px solid #e8e8e0;
+ }
+ .detail-section h2 {
+ font-size: 1.5rem;
+ color: #2c5238;
+ margin-bottom: 1.2rem;
+ }
+ .detail-section p {
+ color: #4a4a4a;
+ margin-bottom: 1rem;
+ font-size: 0.98rem;
+ }
+ .detail-section ul {
+ list-style: none;
+ padding: 0;
+ margin: 1rem 0;
+ }
+ .detail-section li {
+ padding: 0.6rem 0;
+ padding-left: 1.8rem;
+ position: relative;
+ color: #4a4a4a;
+ font-size: 0.98rem;
+ }
+ .detail-section li::before {
+ content: "✓";
+ position: absolute;
+ left: 0;
+ color: #4a7c59;
+ font-weight: 700;
+ }
+ .cta-box {
+ background: linear-gradient(135deg, #eef5ec 0%, #d4e8d0 100%);
+ border-radius: 12px;
+ padding: 2rem;
+ text-align: center;
+ margin: 2rem 0;
+ }
+ .cta-box h3 {
+ font-size: 1.4rem;
+ color: #2c5238;
+ margin-bottom: 0.8rem;
+ }
+ .cta-box p {
+ color: #4a4a4a;
+ margin-bottom: 1.2rem;
+ }
+ .cta-box a {
+ display: inline-block;
+ background: #3a6448;
+ color: #fff;
+ padding: 0.8rem 2rem;
+ border-radius: 8px;
+ font-weight: 600;
+ transition: background 0.2s;
+ }
+ .cta-box a:hover {
+ background: #2c5238;
+ text-decoration: none;
+ }
+ .faq-item {
+ border-bottom: 1px solid #e8e8e0;
+ padding: 1.2rem 0;
+ }
+ .faq-item:last-child {
+ border-bottom: none;
+ }
+ .faq-item h4 {
+ font-size: 1.05rem;
+ color: #2c5238;
+ margin-bottom: 0.4rem;
+ cursor: pointer;
+ }
+ .faq-item p {
+ color: #5a5a5a;
+ font-size: 0.95rem;
+ }
+ footer {
+ background: #2c2c2c;
+ color: #c0c0c0;
+ text-align: center;
+ padding: 2rem 0;
+ margin-top: 3rem;
+ }
+ footer p {
+ font-size: 0.9rem;
+ }
+ @media (max-width: 768px) {
+ .page-header h1 {
+ font-size: 1.7rem;
+ }
+ .detail-section {
+ padding: 1.5rem;
+ }
+ .info-grid {
+ grid-template-columns: 1fr;
+ }
+ }
+ </style>
 </head>
 <body>
-    <header>
-        <div class="header-inner">
-            <div class="logo">
-                마포셔츠룸 <span>투자</span>
-            </div>
-            <button class="hamburger" aria-label="메뉴 열기" onclick="document.querySelector('nav ul').classList.toggle('open')">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-            <nav>
-                <ul>
-                    <li><a href="/">홈</a></li>
-                    <li><a href="/info">정보</a></li>
-                    <li><a href="/review">리뷰</a></li>
-                    <li><a href="/strategy">전략</a></li>
-                    <li><a href="tel:010-1234-5678">문의</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+ <header>
+ <div class="header-inner">
+ <div class="logo">
+ 마포셔츠룸 <span>투자</span>
+ </div>
+ <button class="hamburger" aria-label="메뉴 열기" onclick="document.querySelector('nav ul').classList.toggle('open')">
+ 
+ 
+ 
+ </button>
+ <nav>
+ <ul>
+ <li><a href="/">홈</a></li>
+ <li><a href="/info">정보</a></li>
+ <li><a href="/review">리뷰</a></li>
+ <li><a href="/strategy">전략</a></li>
+ 
+ </ul>
+ </nav>
+ </div>
+ </header>
 
 <main class="container">
 <header class="header-inner">
@@ -412,7 +410,7 @@
 <section class="cta-box">
 <h2 class="section-title">문의</h2>
 <p>이용 관련 문의는 아래 연락처로 가능하다.</p>
-<p><a href="tel:010-1234-5678">010-1234-5678</a></p>
+
 </section>
 <section class="detail-section">
 <h2 class="section-title">자주 묻는 질문</h2>
